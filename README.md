@@ -1,4 +1,4 @@
-#Program – obsługa klasy
+# Program – obsługa klasy
 
 Program służy do przechowywania i wyświetlania informacji o klasie oraz jej uczniach.
 
