@@ -1,21 +1,33 @@
 # Program – obsługa klasy
 
-Program służy do przechowywania i wyświetlania informacji o klasie oraz jej uczniach.
+Program służy do przechowywania, wczytywania oraz wyświetlania informacji dotyczących klasy i znajdujących się w niej uczniów.
 
-Po uruchomieniu użytkownik wybiera sposób wczytania danych:
+Po uruchomieniu programu użytkownik wybiera sposób wczytania danych:
 
-1 – z pliku a.txt
+Z pliku a.txt – program odczytuje dane zapisane w pliku.
 
-2 – z klawiatury
+Z klawiatury – użytkownik sam wprowadza dane podczas działania programu.
 
-Program przechowuje:
+Program przechowuje następujące informacje:
 
 nazwę klasy,
 
 imię i nazwisko wychowawcy,
 
-dane uczniów (imię, nazwisko oraz numer).
+imię ucznia,
 
-W programie przyjęto, że klasa może zawierać maksymalnie 30 osób, a aktualnie wczytywane są dane dla 2 osób.
+nazwisko ucznia,
 
-Po wczytaniu danych program wyświetla informacje o klasie, wychowawcy oraz wszystkich wczytanych uczniach.
+numer ucznia.
+
+Dane uczniów są przechowywane w tablicy, która może pomieścić maksymalnie 30 osób. W obecnej wersji programu wczytywane są dane 2 uczniów.
+
+Program został podzielony na dwie klasy:
+
+Osoba – odpowiada za przechowywanie danych pojedynczego ucznia oraz ich wczytywanie i wyświetlanie,
+
+Klasa – przechowuje informacje o klasie, wychowawcy oraz uczniach.
+
+Po poprawnym wczytaniu danych program wyświetla na ekranie nazwę klasy, imię i nazwisko wychowawcy oraz dane wszystkich wczytanych uczniów.
+
+W przypadku wybrania opcji wczytywania z pliku program korzysta z pliku a.txt, który powinien zawierać odpowiednio przygotowane dane.
